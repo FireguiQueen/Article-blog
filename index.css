@@ -1,0 +1,106 @@
+*{
+    text-align: left;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    scroll-behavior: smooth;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(235, 232, 232), white);
+
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "sections";
+}
+
+header{
+    grid-area: header;
+
+    background-color: #3765e1;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.643);
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li{
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgba(192, 188, 188, 0.273);
+}
+li:hover{
+    background-color: rgb(226, 155, 74);
+    transition: background-color 200ms linear;
+}
+a{
+    color: rgb(244, 240, 240);
+    text-decoration: none;
+}
+
+
+section{
+    padding-top: 20px;
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    color: black;
+    font-family: Verdana, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+
+h1{
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #111111;
+}
+
+#beneficios{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+ul#beneficios li{
+    margin-left: 15px;
+}
+
+p{
+    font-size: 17px;
+    line-height: 22px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+}
+/* background-color & color changes when selection an element */
+::selection{
+    background-color: rgba(243, 240, 242, 0.147);
+    color: rgb(240, 233, 233);
+}
+
+
+/* scrollbar */ 
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(43, 43, 45, 0.997);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0c0b0b;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3f3f3ff5;
+}
