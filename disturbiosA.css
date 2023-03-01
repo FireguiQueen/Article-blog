@@ -96,7 +96,7 @@ ul.anorexia li:hover{
     height: 2px;
     width: 100%;
     border-radius: 60px;
-    background-color: #3764e14c;
+    background-color: rgb(226, 155, 74);
 }
 
 /* background-color & color changes when selection an element */
