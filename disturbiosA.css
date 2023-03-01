@@ -88,9 +88,13 @@ ul.comportamentos li:hover{
     transform: translateX(20px);
     transition: transform 200ms linear;
 } 
-
+.tratamentos{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
 #disturbios::after{
-    margin: 10px 0 10px 0;
+    margin: 10px 0 03px 0;
     content: '';
     margin: auto;
     display: block;
