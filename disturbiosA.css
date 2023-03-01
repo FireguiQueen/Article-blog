@@ -84,7 +84,7 @@ ul li{
 
 
 
-ul.anorexia li:hover{
+ul.comportamentos li:hover{
     transform: translateX(20px);
     transition: transform 200ms linear;
 } 
@@ -92,11 +92,12 @@ ul.anorexia li:hover{
 #disturbios::after{
     margin: 10px 0 10px 0;
     content: '';
+    margin: auto;
     display: block;
     height: 2px;
-    width: 70%;
+    width: 95%;
     border-radius: 60px;
-    background-color: rgb(226, 155, 74);
+    background-color: rgba(226, 155, 74, 0.541);
 }
 
 /* background-color & color changes when selection an element */
